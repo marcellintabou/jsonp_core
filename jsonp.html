@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+  </head> 
+  <body> 
+    <div data-role="page" id="jsonp" data-theme="c">
+      <!-- header-->
+      <div data-role="header" data-mini="true" data-inline="true">
+        <a href="index.html" data-icon="bars" data-role="button">json loading</a>
+        <H1>json file loading</H1>
+      </div>
+      <!-- content-->
+      <div data-role="content" data-theme='a' id="indexcontenID">
+        <ol data-theme='d' data-role="listview" class="jsonplistview" data-filter="true" data-inset="true"></ol>
+        <ol data-theme='d' data-role="listview" class="jsonplistview1" data-filter="true" data-inset="true"></ol>
+      </div>
+      <!-- footer -->
+      <div data-role="footer" class="ui-bar" data-mini="true">
+        <div data-role="controlgroup" data-type="horizontal">
+          <a href="index.html" data-role="button" data-icon="arrow-l">json</a>
+          <a href="cors.html" data-role="button" data-icon="arrow-r">cors</a>
+        </div>
+      </div>
+    </div>
+    <script src='dynamicdata.js'></script>
+  </body>
+</html>
+
+ 
+
